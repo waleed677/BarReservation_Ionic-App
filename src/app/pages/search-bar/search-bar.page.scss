@@ -1,0 +1,23 @@
+
+.ion-wrap{
+margin-top: 15vh;
+}
+
+.login-btn{
+display: block;
+margin: 6vh auto 5vh;
+width: 70%;
+--background: var(--ion-color-background);
+--border-radius: 60px;
+color: #000;
+font-weight: bold;
+line-height: 30px;
+text-align: center;
+}
+
+.back-btn{
+  float: right;
+  padding-right: 15px;
+  margin-top: 5vh;
+}
+

@@ -1,0 +1,47 @@
+.log-wrap{
+	padding-top: 20px;
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    border-radius: 8px;
+}
+
+ion-item{
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2vw;
+  --background: var(--ion-color-background);
+}
+
+ion-label{
+  display: block;
+  margin: auto;
+  width: 80%;
+  padding: 2vw 0;
+  font-weight: bold;
+}
+
+
+.login-btn{
+  display: block;
+  margin: 10vh auto 5vh;
+  width: 50%;
+  --background: var(--ion-color-background);
+  --border-radius: 60px;
+  color: #000;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+}
+
+.center-text{
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: #AD2323;
+  font-weight: 600;
+
+}

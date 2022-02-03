@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <div class="grid-container">
+      <div class="ranking"><p>Reservation</p></div>
+      <div>
+        <ion-img src="assets/images/Icon-cocktail.png" class="logo"></ion-img>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <div class="ion-wrap">
+      <div class="row">
+        <div>
+          <ion-label>No of People</ion-label>
+          <ion-item>
+            <ion-input type="text">10</ion-input>
+          </ion-item>
+        </div>
+        <div>
+          <ion-label>Contact</ion-label>
+          <ion-item>
+            <ion-input type="text">21 346 1417</ion-input>
+          </ion-item>
+        </div>
+      </div>
+
+      <ion-label>Promo Code</ion-label>
+      <ion-item>
+        <ion-input type="text">LisbonNight</ion-input>
+      </ion-item>
+      <ion-img src="assets/images/calendar.png" class="map"></ion-img>
+      <div class="mt-1"></div>
+      <ion-label>Time</ion-label>
+      <ion-item
+        style="position: absolute; width: 122px; height: 35px; left: 36px"
+      >
+        <ion-input type="text"> 00h30</ion-input>
+      </ion-item>
+      <div class="mt-3"></div>
+
+      <div class="row-btn">
+        <ion-button
+          class="back-btn"
+          style="float: left !important"
+          routerLink="/my-reservations"
+          >Back</ion-button
+        >
+        <ion-button class="back-btn" style="float: right !important" routerLink="/home"
+          >Confirm</ion-button
+        >
+      </div>
+    </div>
+  </div>
+</ion-content>

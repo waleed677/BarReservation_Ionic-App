@@ -1,0 +1,8 @@
+{
+  "name": "barReservation",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
